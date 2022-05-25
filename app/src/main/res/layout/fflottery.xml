@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/FFimage"
+        android:src="@drawable/fflottery"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="45개의 번호 중 6개의 번호를 맞추면 당첨되는 게임으로 한주
+판매량에 제한이 없다.\n 1등 당첨자가 없
+으면 다음 회차로 이월된다."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/Ballview1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top|center"
+            android:layout_margin="10dp" />
+
+        <ImageView
+            android:id="@+id/Ballview2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top|center"
+            android:layout_margin="10dp" />
+
+        <ImageView
+            android:id="@+id/Ballview3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top|center"
+            android:layout_margin="10dp" />
+
+        <ImageView
+            android:id="@+id/Ballview4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top|center"
+            android:layout_margin="10dp" />
+
+
+        <ImageView
+            android:id="@+id/Ballview5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top|center"
+            android:layout_margin="10dp" />
+
+        <ImageView
+            android:id="@+id/Ballview6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top|center"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="번호 뽑기"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:backgroundTint="#808080"
+        android:textColor="@color/black"
+        android:id="@+id/FFstart"/>
+
+    <Button
+        android:id="@+id/FFBack"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:backgroundTint="#808080"
+        android:textColor="@color/black"
+        android:text="뒤로 가기"
+        android:textSize="20dp"
+        android:layout_marginTop="80dp" />
+
+</LinearLayout>
